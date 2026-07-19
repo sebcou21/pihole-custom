@@ -12,7 +12,7 @@
 # -----------------------------------------------------------------------------
 
 # HP Smart (blocks all subdomains)
-*.hpsmart.com
+||hpsmart.com^
 
 # HP Connected
 oss.hpconnected.com
