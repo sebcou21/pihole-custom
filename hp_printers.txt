@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# HP Cloud / HP Smart blocklist for Pi-hole
+#
+# Purpose:
+#   Block HP Smart cloud services, HP Connected, telemetry,
+#   chat/avatar services and HP download endpoints.
+#
+# Notes:
+# - hpsmart.com is blocked at the parent domain level, which also blocks all current and future subdomains.
+# - CDN aliases (*.cloudflare.net, *.edgekey.net) are intentionally omitted.
+# - Internal search-domain expansions (*.int.lan) are omitted.
+# -----------------------------------------------------------------------------
+
+# HP Smart (blocks all subdomains)
+hpsmart.com
+
+# HP Connected
+oss.hpconnected.com
+
+# HP Data Services
+mq.dataservices.hp.com
+mq.hp-dataservices.com
+static.dataservices.hp.com
+static.hp-dataservices.com
+
+# HP Printer onboarding / provisioning
+printer-config.hpoobe.com
+
+# HP AI / Chat
+chat.avatar.ext.hp.com
+
+# HP software / firmware downloads
+ftp.hp.com
+ftp.ext.hp.com
