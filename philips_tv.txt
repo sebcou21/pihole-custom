@@ -56,6 +56,6 @@ bag.itunes.apple.com
 uts-api.itunes.apple.com
 
 # Amazon
-*.amazonvideo.com
+||amazonvideo.com^
+||minerva.devices.a2z.com
 arcus-uswest.amazon.com
-*.minerva.devices.a2z.com
