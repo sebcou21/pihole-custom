@@ -1,0 +1,61 @@
+# -----------------------------------------------------------------------------
+# Philips TV blocklist for Pi-hole (generated from pi-hole logs)
+# -----------------------------------------------------------------------------
+
+# Philips / TP Vision telemetry
+metrics.core.cloud.vewd.com
+log.core.cloud.vewd.com
+browserjs.core.cloud.vewd.com
+sasprod.nettvservices.com
+deviceportal.nettvservices.com
+authorize.nettvservices.com
+dac-api-prod.tpv-analytics.com
+
+# ZEASN (recommended content / channels)
+smarttv.zeasn.tv
+rec.zeasn.tv
+
+# Analytics / Tag Managers
+collect.tealiumiq.com
+tags.tiqcdn.com
+bf50253iwm.bf.dynatrace.com
+js-cdn.dynatrace.com
+
+# Google advertising
+googleads.g.doubleclick.net
+ad.doubleclick.net
+pagead2.googlesyndication.com
+tpc.googlesyndication.com
+ade.googlesyndication.com
+www.googleadservices.com
+imasdk.googleapis.com
+
+# Google telemetry / crash reporting
+firebaselogging.googleapis.com
+firebaselogging-pa.googleapis.com
+feedback-pa.googleapis.com
+footprints-pa.googleapis.com
+app-measurement.com
+crashlyticsreports-pa.googleapis.com
+firebase-settings.crashlytics.com
+
+# Voice / Assistant
+embeddedassistant.googleapis.com
+speechs3proto2-pa.googleapis.com
+
+# Netflix
+androidtv.prod.cloud.netflix.com
+api-global.netflix.com
+occ.a.nflxso.net
+preapp.prod.partner.netflix.net
+nrdp25.appboot.netflix.com
+nrdp26.appboot.netflix.com
+
+# Apple
+bag.itunes.apple.com
+uts-api.itunes.apple.com
+
+# Amazon
+*.amazonvideo.com
+arcus-uswest.amazon.com
+*.minerva.devices.a2z.com
