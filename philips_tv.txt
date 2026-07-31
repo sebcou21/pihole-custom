@@ -50,6 +50,7 @@ occ.a.nflxso.net
 preapp.prod.partner.netflix.net
 nrdp25.appboot.netflix.com
 nrdp26.appboot.netflix.com
+secure.netflix.com
 
 # Apple
 bag.itunes.apple.com
@@ -59,3 +60,4 @@ uts-api.itunes.apple.com
 ||amazonvideo.com^
 ||minerva.devices.a2z.com
 arcus-uswest.amazon.com
+time.aws.com
