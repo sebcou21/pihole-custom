@@ -58,6 +58,6 @@ uts-api.itunes.apple.com
 
 # Amazon
 ||amazonvideo.com^
-||minerva.devices.a2z.com
+||minerva.devices.a2z.com^
 arcus-uswest.amazon.com
 time.aws.com
